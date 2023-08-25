@@ -87,8 +87,7 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     justify-content: space-between;
-
-
+    padding: 24px 0;
 }
 
 .header-nav {
@@ -116,7 +115,7 @@ button {
     display: flex;
     gap: 40px;
     width: calc((100% - 80px) / 3);
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .nav-list-item {
@@ -140,7 +139,7 @@ button {
 
 .header-address {
     font-style: normal;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .address-list {
