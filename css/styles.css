@@ -8,7 +8,12 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4 h5 h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -84,11 +89,8 @@ button {
 
 .container-header {
     display: flex;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .header-nav {
@@ -118,15 +120,17 @@ button {
 .nav-list {
     display: flex;
     gap: 40px;
-    width: calc((100% - 80px) / 3);
+
 }
 
 .nav-list-item {
     gap: 40px;
+    width: calc((100% - 80px) / 3);
 
 }
 
 .nav-link {
+    display: block;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -279,9 +283,8 @@ button {
 
 .team-list {
     display: flex;
-    background-color: #FFFFFF;
     gap: 24px;
-    margin: 0 auto;
+
 }
 
 .team-list-item {
@@ -305,7 +308,6 @@ button {
 
 .team-text {
     text-align: center;
-    margin-bottom: 32px;
 }
 
 /* Portfolio */
