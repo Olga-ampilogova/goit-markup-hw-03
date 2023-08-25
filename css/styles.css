@@ -78,7 +78,7 @@ button {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-    padding: 24px 0;
+
 
 }
 
@@ -94,6 +94,7 @@ button {
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-logo {
