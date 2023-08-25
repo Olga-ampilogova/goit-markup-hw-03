@@ -96,7 +96,6 @@ button {
 .header-nav {
     display: flex;
     align-items: center;
-
 }
 
 .header-logo {
@@ -117,13 +116,16 @@ button {
 
 .nav-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     width: calc((100% - 80px) / 3);
+    /* padding: 24px 0; */
 
 }
 
 
-.nav-list-item {}
+.nav-list-item {
+    gap: 40px;
+}
 
 
 .nav-link {
@@ -148,7 +150,7 @@ button {
 .address-list {
 
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     margin-left: auto;
 }
 
@@ -342,15 +344,15 @@ button {
     display: flex;
     background-color: #FFFFFF;
     flex-wrap: wrap;
+    row-gap: 48px;
     gap: 24px;
-
 }
 
 .portfol-list-item {
     gap: 24px;
     width: calc((100% - 48px) / 3);
     align-items: center;
-    row-gap: 48px;
+
 }
 
 
