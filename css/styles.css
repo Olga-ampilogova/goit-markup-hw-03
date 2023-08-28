@@ -123,11 +123,7 @@ button {
 
 }
 
-.nav-list-item {
-    gap: 40px;
-    width: calc((100% - 80px) / 3);
-
-}
+.nav-list-item {}
 
 .nav-link {
     display: block;
